@@ -1,6 +1,6 @@
 # TP1 - Grupo 21: Innovación Digital
 
-**URL Deploy:** https://tp1-grupo21.vercel.app
+**URL Deploy:** https://portafolio-personal-9l9i.vercel.app/
 
 ## Descripción
 Proyecto del Trabajo Práctico 1 de IFTS 29. Este sitio web presenta a un equipo de tres estudiantes con páginas individuales, navegación interna, diseño adaptable y funciones interactivas con JavaScript.
@@ -52,7 +52,7 @@ Proyecto del Trabajo Práctico 1 de IFTS 29. Este sitio web presenta a un equipo
 ![Bitácora](img/screenshot-bitacora.svg)
 
 ## Enlace al Proyecto Desplegado
-https://tp1-grupo21.vercel.app
+https://portafolio-personal-9l9i.vercel.app/
 
 ## Uso de IA
 - **Herramientas:** Gemini Flash 3 / Copilot.
