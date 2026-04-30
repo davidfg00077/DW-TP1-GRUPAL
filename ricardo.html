@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo - Grupo 21</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-nav">
+        <button onclick="location.href='index.html'">Inicio</button>
+        <button onclick="location.href='brian.html'">Brian</button>
+        <button onclick="location.href='david.html'">David</button>
+        <button onclick="location.href='bitacora.html'">Bitácora</button>
+    </nav>
+
+    <main class="card">
+        <img class="avatar" src="img/avatar-ricardo.svg" alt="Avatar Ricardo">
+        <h1>Ricardo Cesar López</h1>
+        <p><strong>Ubicación:</strong> Mendoza, Argentina</p>
+        <p><strong>Edad:</strong> 24 años</p>
+        <section class="details">
+            <h3>Habilidades</h3>
+            <ul>
+                <li>CSS Grid y Flexbox</li>
+                <li>JavaScript interactivo</li>
+                <li>Diseño UX</li>
+                <li>Despliegue en Vercel</li>
+            </ul>
+        </section>
+        <section class="details">
+            <h3>Películas favoritas</h3>
+            <ul>
+                <li>El club de la pelea</li>
+                <li>Interstellar</li>
+                <li>La La Land</li>
+            </ul>
+        </section>
+        <section class="details">
+            <h3>Discos favoritos</h3>
+            <ul>
+                <li>Back in Black</li>
+                <li>Thriller</li>
+                <li>1989</li>
+            </ul>
+        </section>
+        <div id="ricardoExtra" class="extra-text">Detalle adicional: mantener siempre un flujo de navegación claro sin depender del botón atrás.</div>
+        <button id="btnRicardoAction">Mostrar detalle</button>
+        <button class="volver" onclick="location.href='index.html'">VOLVER</button>
+    </main>
+
+    <script src="js/ricardo.js"></script>
+</body>
+</html>

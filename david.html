@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David - Grupo 21</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-nav">
+        <button onclick="location.href='index.html'">Inicio</button>
+        <button onclick="location.href='brian.html'">Brian</button>
+        <button onclick="location.href='ricardo.html'">Ricardo</button>
+        <button onclick="location.href='bitacora.html'">Bitácora</button>
+    </nav>
+
+    <main class="card" id="davidCard">
+        <img class="avatar" src="img/avatar-david.svg" alt="Avatar David">
+        <h1>David Fernando Pérez</h1>
+        <p><strong>Ubicación:</strong> Buenos Aires, Argentina</p>
+        <p><strong>Edad:</strong> 34 años</p>
+        <section class="details">
+            <h3>Habilidades</h3>
+            <ul>
+                <li>Reverse Engineering</li>
+                <li>Proxmox Virtualization</li>
+                <li>Android Development (Kotlin)</li>
+                <li>C/C++ Low-level programming</li>
+            </ul>
+        </section>
+        <section class="details">
+            <h3>Películas favoritas</h3>
+            <ul>
+                <li>Matrix</li>
+                <li>Inception</li>
+                <li>Blade Runner</li>
+            </ul>
+        </section>
+        <section class="details">
+            <h3>Discos favoritos</h3>
+            <ul>
+                <li>Random Access Memories</li>
+                <li>The Dark Side of the Moon</li>
+                <li>Discovery</li>
+            </ul>
+        </section>
+        <button id="btnInteract">Cambiar estilo de tarjeta</button>
+        <button class="volver" onclick="location.href='index.html'">VOLVER</button>
+    </main>
+
+    <script src="js/david.js"></script>
+</body>
