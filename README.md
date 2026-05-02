@@ -8,7 +8,7 @@ Proyecto del Trabajo Práctico 1 de IFTS 29. Este sitio web presenta a un equipo
 ## Integrantes
 - Brian Gonzalo García - [GitHub](https://github.com/enobrian-maker/PFO1-Frontend)
 - David Fernando Pérez - [GitHub](https://github.com/davidfg00077/DW-TP1-GRUPAL/tree/RAMA1)
-- Ricardo Cesar López - [GitHub](https://github.com/ricardo197578/porfolio_Desarrollo_Front.git)
+- Ricardo Cesar Canteros - [GitHub](https://github.com/ricardo197578/porfolio_Desarrollo_Front.git)
 
 ## Tecnologías Utilizadas
 - HTML5
@@ -50,6 +50,8 @@ Proyecto del Trabajo Práctico 1 de IFTS 29. Este sitio web presenta a un equipo
 ![Portada](img/screenshot-index.svg)
 ![Perfil individual](img/screenshot-brian.svg)
 ![Bitácora](img/screenshot-bitacora.svg)
+![Menu hamburguesa](img/menuHamburguesa.png)
+
 
 ## Enlace al Proyecto Desplegado
 https://portafolio-personal-9l9i.vercel.app/

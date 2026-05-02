@@ -242,3 +242,64 @@ button:hover,
     background: linear-gradient(135deg, #eaf8ff 0%, #f3f0ff 100%);
     border: 1px solid rgba(46, 74, 125, 0.2);
 }
+
+/*AGREGO ESTILOS PARA AVATAR EN INDEX*/
+.integrantes li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.integrantes .avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid var(--secundario);
+    background: var(--gris);
+}
+
+/*AGREGO ESTILOS PARA MENU DESPLEGABLE*/
+/* Botón hamburguesa oculto en desktop */
+.menu-toggle {
+    display: none;
+    border: none;
+    background: var(--secundario);
+    color: var(--blanco);
+    padding: 12px 18px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* Contenedor de links en desktop */
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+/* Mobile */
+@media (max-width: 768px) {
+    .main-nav {
+        justify-content: flex-start;
+        align-items: stretch;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu-toggle {
+        display: inline-block;
+        align-self: flex-start;
+    }
+    .nav-links {
+        display: none;              /* colapsado por defecto */
+        flex-direction: column;
+        width: 100%;
+        gap: 8px;
+    }
+    .main-nav.is-open .nav-links {
+        display: flex;              /* desplegado */
+    }
+    .nav-links button {
+        width: 100%;
+        text-align: center;
+    }
+}

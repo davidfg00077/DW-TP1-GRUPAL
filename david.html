@@ -8,11 +8,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="main-nav">
-        <button onclick="location.href='index.html'">Inicio</button>
-        <button onclick="location.href='brian.html'">Brian</button>
-        <button onclick="location.href='ricardo.html'">Ricardo</button>
-        <button onclick="location.href='bitacora.html'">Bitácora</button>
+     <!--Agregando menu desplegable-->
+    <nav class="main-nav" id="siteNav">
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Abrir menú de navegación"
+            aria-expanded="false"
+            aria-controls="mainMenu"
+            type="button"
+        >
+        <!--☰ Menú-->
+        ☰ Menú
+        </button>
+        <div class="nav-links" id="mainMenu">
+            <button onclick="location.href='index.html'">Inicio</button>
+            <button onclick="location.href='brian.html'">Brian</button>
+            <button onclick="location.href='david.html'">David</button>
+            <button onclick="location.href='ricardo.html'">Ricardo</button>
+            <button onclick="location.href='bitacora.html'">Bitácora</button>
+        </div>
     </nav>
 
     <main class="card" id="davidCard">
@@ -49,5 +64,6 @@
         <button class="volver" onclick="location.href='index.html'">VOLVER</button>
     </main>
 
+    <script src="js/main.js"></script>
     <script src="js/david.js"></script>
 </body>
