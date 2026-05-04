@@ -6,7 +6,7 @@
 Proyecto del Trabajo Práctico 1 de IFTS 29. Este sitio web presenta a un equipo de tres estudiantes con páginas individuales, navegación interna, diseño adaptable y funciones interactivas con JavaScript.
 
 ## Integrantes
-- Brian Gonzalo García - [GitHub](https://github.com/enobrian-maker/PFO1-Frontend)
+- Brian Gonzalo Garcia - [GitHub](https://github.com/enobrian-maker/PFO1-Frontend)
 - David Fernando Pérez - [GitHub](https://github.com/davidfg00077/DW-TP1-GRUPAL/tree/RAMA1)
 - Ricardo Cesar Canteros - [GitHub](https://github.com/ricardo197578/porfolio_Desarrollo_Front.git)
 
